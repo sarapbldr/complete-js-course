@@ -1,4 +1,4 @@
-const jonas = {
+/* const jonas = {
   firstName: 'Jonas',
   lastName: 'Schmedtmann',
   birthYear: 2006,
@@ -16,13 +16,7 @@ const jonas = {
     } else {
       return 'no';
     } */
-    if (this.age >= 18) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-};
+
 
  // calcAge: function(birthYear) {
  //   return 2020 - birthYear;
@@ -50,16 +44,16 @@ const jonas = {
 // Tengo que hacer la frase que hay arriba utilizando el objeto jonas.
 // -
 
-console.log(jonas.calcAge());
-console.log(`${jonas.firstName} is a ${jonas.calcAge()}-year old ${jonas.job}, and he has ${jonas.driversLicense() ? 'a' : 'no'} driver's license.`);
+//console.log(jonas.calcAge());
+//console.log(`${jonas.firstName} is a ${jonas.calcAge()}-year old ${jonas.job}, and he has ${jonas.driversLicense() ? 'a' : 'no'} driver's license.`);
 
-console.log(jonas.driversLicense);
-console.log(jonas.driversLicense());
+//console.log(jonas.driversLicense);
+//console.log(jonas.driversLicense());
 
-if (jonas.driversLicense) {
+//if (jonas.driversLicense) {
   // return 'a';
-} else {
+//} else {
   // return 'no';
-}
+//}
 
 
