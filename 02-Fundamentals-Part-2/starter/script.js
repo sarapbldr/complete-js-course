@@ -223,7 +223,7 @@ const jonas = {
 };
 
 console.log(`${jonas.firstName} has ${jonas.friends.length}, and his best friend is ${jonas.friends[0]}`);
-*/
+
 
 
 
@@ -253,3 +253,8 @@ if (jonas.hasDriversLicense) {
 };
 
 console.log(jonas.hasDriversLicense);
+*/
+
+for(let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
+}
