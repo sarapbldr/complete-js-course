@@ -14,7 +14,7 @@ console.log(document.querySelector('.guess').value);
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 
-document.querySelector('.check').addEventListener ('click', function() {
+document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   console.log(guess, typeof guess);
 
@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener ('click', function() {
 
     $message.textContent = '🎉 Correct Number!';
     $body.style.backgroundColor = '#60B347';
-    $number.style.width = '30rem'
+    $number.style.width = '30rem';
     $number.textContent = secretNumber;
 
     //When guess is too high
