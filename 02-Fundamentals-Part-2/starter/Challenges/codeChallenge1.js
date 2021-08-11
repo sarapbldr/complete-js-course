@@ -59,7 +59,7 @@ john.calcBMI();
 if (mark.totalBMI > john.totalBMI) {
   console.log (`${mark.firstName} ${mark.lastName} BMI(${mark.totalBMI}) is higher than ${john.firstName} ${john.lastName} BMI(${john.totalBMI})`);
 } else {
-  console.log (`${john.firstName} ${john.lastName} BMI(${john.totalBMI}) is higher than ${mark.firstName} ${mark.lastName} BMI(${mark.totalBMI})`);
+  console.log (`${john.firstName} ${john.lastName} BMI(${john.totalBMI}) is higher than ${mark.firstName} ${mark.lastName} BMI(${mark.totalBMI}));
 };
 
 

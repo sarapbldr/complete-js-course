@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(126, 226, 209);
+  font-family: Arial;
+  font-size: 14px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: whitesmoke;
+  margin-bottom: 25px;
+}
+
+
+#your-name {
+  background-color: rgb(121, 216, 195);
+  border: 2px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button …{
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: hotpink;
+}
+
+#spongebob-image {
+  width: 200px;
+}
+
+#your-name h2 {
+  color: olivedrab;
+}
+
+
