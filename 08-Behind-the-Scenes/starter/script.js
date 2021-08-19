@@ -34,46 +34,83 @@
 
 // const prueba = true;
 
-
 // console.log(me);
 // console.log(job);
 // console.log(year);
-
 
 // var me = 'Jonas';
 // let job = 'teacher';
 // const year = 1991;
 
-
 // THIS KEYWORD
 
 //console.log(this);
 
-const calcAge = function (birthYear) {
-  console.log(2021 - birthYear);
-  // console.log(this);
-}
+// const calcAge = function (birthYear) {
+//   console.log(2021 - birthYear);
+//   // console.log(this);
+// }
 
-calcAge(1991);
+// calcAge(1991);
 
-const calcAgeArrow = birthYear => {
-  console.log(2021 - birthYear);
-  // console.log(this);
-};
-calcAgeArrow(1995);
+// const calcAgeArrow = birthYear => {
+//   console.log(2021 - birthYear);
+//   // console.log(this);
+// };
+// calcAgeArrow(1995);
+
+// const jonas = {
+//   year: 1991,
+//   calcAge: function() {
+//     console.log(this);
+//     console.log(2021 - this.year);
+//   }
+// }
+// jonas.calcAge();
+
+// const matilda = {
+//   year: 2017,
+// };
+
+// matilda.calcAge = jonas.calcAge;
+// matilda.calcAge();
+
+var firstName = 'Matilda';
 
 const jonas = {
+  firstName: 'Jonas',
   year: 1991,
-  calcAge: function() {
+  calcAge: function () {
     console.log(this);
     console.log(2021 - this.year);
-  }
-}
+
+    //   const isMillenial = function () {
+    //     console.log(this.year >= 1981 && this.year <= 1996);
+    //   };
+    //   isMillenial();
+    // },
+
+    const isMillenial = () => {
+      console.log(this.year >= 1981 && this.year <= 1996);
+    };
+    isMillenial();
+  },
+  greet: () => console.log(`Hey ${this.firstName}`),
+};
 jonas.calcAge();
 
-const matilda = {
-  year: 2017,
+// Arguments keyword
+
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpr(2, 5);
+addExpr(2, 5, 8, 12);
+
+var addArrow = (a, b) => {
+  console.log(arguments);
+  return a + b;
 };
 
-matilda.calcAge = jonas.calcAge;
-matilda.calcAge();
+addArrow(2, 5, 8);
