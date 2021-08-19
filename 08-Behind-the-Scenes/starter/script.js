@@ -75,22 +75,22 @@
 // matilda.calcAge = jonas.calcAge;
 // matilda.calcAge();
 
-var firstName = 'Matilda';
+// var firstName = 'Matilda';
 
-const jonas = {
-  firstName: 'Jonas',
-  year: 1991,
-  calcAge: function () {
-    console.log(this);
-    console.log(2021 - this.year);
+// const jonas = {
+//   firstName: 'Jonas',
+//   year: 1991,
+//   calcAge: function () {
+//     console.log(this);
+//     console.log(2021 - this.year);
 
-    //   const isMillenial = function () {
-    //     console.log(this.year >= 1981 && this.year <= 1996);
-    //   };
-    //   isMillenial();
-    // },
+//   const isMillenial = function () {
+//     console.log(this.year >= 1981 && this.year <= 1996);
+//   };
+//   isMillenial();
+// },
 
-    const isMillenial = () => {
+/*    const isMillenial = () => {
       console.log(this.year >= 1981 && this.year <= 1996);
     };
     isMillenial();
@@ -114,3 +114,19 @@ var addArrow = (a, b) => {
 };
 
 addArrow(2, 5, 8);
+*/
+
+let age = 30;
+let oldAge = age;
+age = 31;
+console.log(age);
+console.log(oldAge);
+
+const me = {
+  name: 'Sara',
+  age: 25,
+};
+const friend = me;
+friend.age = 28;
+console.log('Friend:', friend);
+console.log('Me:', me);
