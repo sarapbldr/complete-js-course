@@ -1,6 +1,6 @@
 'use strict';
 
-// // function calcAge(birthYear) {
+// function calcAge(birthYear) {
 //   const age = 2021 - birthYear;
 
 //   function printAge() {
