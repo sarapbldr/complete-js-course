@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+header {
+  font-family: "Courier New", monospace;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left: 300px;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  color: black;
+  font-size: medium;
+  padding-left: 30px;
+}
+
+.image {
+  padding-left: 100px;
+}
